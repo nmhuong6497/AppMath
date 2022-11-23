@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFDEB">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#2E2E2E"
+        android:id="@+id/text_view_result"
+        tools:text="Bạn chọn A. Đúng\nKết quả là A. Đúng"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_continue"
+        android:textColor="#2E2E2E"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:text="Bài mới"
+        app:layout_constraintTop_toBottomOf="@id/text_view_result"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_close"
+        android:textColor="#2E2E2E"
+        android:background="@drawable/button"
+        android:textSize="20sp"
+        android:text="Đóng"
+        app:layout_constraintTop_toBottomOf="@id/text_view_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
