@@ -34,9 +34,6 @@ public class HistoryActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.clear();
                 editor.commit();
-//
-//                Intent intent = new Intent(HistoryActivity.this, CaculationActivity.class);
-//                startActivity(intent);
             }
         });
     }
