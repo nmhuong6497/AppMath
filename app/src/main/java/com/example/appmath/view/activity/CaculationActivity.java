@@ -1,4 +1,4 @@
-package com.example.appmath;
+package com.example.appmath.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
+import com.example.appmath.R;
 
 import java.util.Random;
 
